@@ -1,6 +1,5 @@
 import React from "react";
 
-// Reusable input component
 const ModalInput = ({ label, value, onChange, type = "number" }) => {
   return (
     <div className="update-items">
@@ -30,7 +29,6 @@ function Modal({
 }) {
   if (!isOpen) return null;
 
-  // Configuration for input fields
   const inputFields = [
     {
       label: "Update your Rank",
